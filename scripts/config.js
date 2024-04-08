@@ -1,4 +1,4 @@
-/**
+/*
  * This file contains logic related to player configuration, which accesses and manipulates the 
  * HTML Elements of the page through their addresses stored in App.js.
  */

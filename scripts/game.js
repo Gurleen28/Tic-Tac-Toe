@@ -1,4 +1,4 @@
-/**
+/*
  * This file contains the game logic, which accesses and manipulates the game state data stored in App.js
  * and the HTML Elements of the page through their addresses stored in App.js.
  */

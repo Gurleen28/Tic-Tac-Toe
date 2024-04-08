@@ -1,4 +1,4 @@
-/**
+/*
  * This file contains game state data and constants which hold the addresses to HTML elements.
  * HTML elements are attached event listeners to game and configuration logic.
  */
