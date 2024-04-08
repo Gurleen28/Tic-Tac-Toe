@@ -1,4 +1,7 @@
-// Logic related to player configuration
+/**
+ * This file contains logic related to player configuration, which accesses and manipulates the 
+ * HTML Elements of the page through their addresses stored in App.js.
+ */
 
 function openPlayerConfig(event) {
   editedPlayer = +event.target.dataset['playerId']; //+{string} converts string to a number
@@ -28,7 +31,7 @@ function savePlayerConfig(event) {
 
   // Capitalize the first letter of player name
   enteredPlayerName =
-  enteredPlayerName.charAt(0).toUpperCase() + enteredPlayerName.slice(1);
+    enteredPlayerName.charAt(0).toUpperCase() + enteredPlayerName.slice(1);
   updatePlayerName(enteredPlayerName);
   closePlayerConfig();
 

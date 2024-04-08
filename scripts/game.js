@@ -1,3 +1,8 @@
+/**
+ * This file contains the game logic, which accesses and manipulates the game state data stored in App.js
+ * and the HTML Elements of the page through their addresses stored in App.js.
+ */
+
 // Game Logic
 
 function startNewGame() {
@@ -115,7 +120,7 @@ function gameOver(winner) {
     cellElements[i].classList.add('disabled');
   }
 
-    if (winner === 'DRAW') {
+  if (winner === 'DRAW') {
     gameOverElement.style.display = 'block';
     gameOverElement.children[0].style.display = 'none';
     gameOverElement.children[1].style.display = 'block';
